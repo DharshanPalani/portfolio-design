@@ -1,0 +1,17 @@
+.project-list {
+    list-style-type: none;
+    display: flex;
+}
+  
+.list-box {
+    background-color: #34B4EB;
+    flex: 2 0 25%;
+    width: 10em;
+    height: 5em;
+    margin: 10px;
+    
+}
+
+.list-box:hover {
+    
+}
