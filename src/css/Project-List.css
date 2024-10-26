@@ -2,16 +2,16 @@
     list-style-type: none;
     display: flex;
 }
-  
+
 .list-box {
-    background-color: #34B4EB;
+    background-color: #75453B; /* Dark Navy Blue */
     flex: 2 0 25%;
     width: 10em;
     height: 5em;
     margin: 10px;
-    
 }
 
 .list-box:hover {
-    
+    background-color: #35A077; /* Charcoal Gray */
+    border-radius: 25px;
 }

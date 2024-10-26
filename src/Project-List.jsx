@@ -8,12 +8,6 @@ function ProjectList() {
         <li><div className="list-box"></div></li>
         <li><div className="list-box"></div></li>
         </ul>
-
-        <ul  className="project-list">
-        <li><div className="list-box"></div></li>
-        <li><div className="list-box"></div></li>
-        <li><div className="list-box"></div></li>
-        </ul>
     
     </>)
 }
