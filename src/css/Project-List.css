@@ -1,17 +1,41 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
 .project-list {
     list-style-type: none;
     display: flex;
 }
 
 .list-box {
-    background-color: #75453B; /* Dark Navy Blue */
+    background-color: #75453B;
     flex: 2 0 25%;
     width: 10em;
-    height: 5em;
+    height: 15em;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, border-radius 0.3s;
+    position: relative;
+    overflow: hidden; 
 }
 
 .list-box:hover {
-    background-color: #35A077; /* Charcoal Gray */
+    background-color: #324B41;
     border-radius: 25px;
+}
+
+.list-box h3 {
+    color: white;
+    writing-mode: vertical-rl;
+    text-align: center;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.list-box:hover h3 {
+    transform: translateX(10px);
 }
