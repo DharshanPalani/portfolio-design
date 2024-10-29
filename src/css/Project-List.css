@@ -19,6 +19,8 @@ body {
     transition: background-color 0.3s, border-radius 0.3s;
     position: relative;
     overflow: hidden; 
+
+    text-decoration: none;
 }
 
 .list-box:hover {

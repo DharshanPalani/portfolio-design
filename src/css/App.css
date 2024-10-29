@@ -44,14 +44,14 @@
 }
 
 .box:nth-child(4) {
-  background-color: #F52A00;
+  background-color: #324B41;
   flex: 1 0 55%;
   height: 10em;
   animation-delay: calc(var(--base-delay) * 2);
 }
 
 .box:nth-child(5) {
-  background-color: #75453B;
+  background-color: #00F597;
   flex: 2 0 30%;
   height: 10em;
   animation-delay: calc(var(--base-delay) * 1);

@@ -1,0 +1,61 @@
+.skill-list {
+  padding: 1rem;
+}
+
+.skill-list h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-card {
+  background-color: #B5452D; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1rem 1.5rem;
+  margin: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s, box-shadow 0.2s; /* Add box-shadow transition */
+  text-align: center; /* Center text */
+  font-weight: bold; /* Make text bold */
+}
+
+.skill-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.contacts-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center items horizontally */
+  gap: 15px; /* Space between links */
+  margin-bottom: 10px; /* Space below the social links */
+}
+
+.social-link {
+  width: 100px;
+  height: 40px; /* Specify the height correctly */
+  background-color: #B5452D;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border-radius: 1em;
+  display: flex; /* Use flex to center text */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.social-link:hover {
+  background-color: #721803; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.contact-info {
+  display: flex;
+  color: black;  
+}
